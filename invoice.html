@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Invoice</title>
+    <style>
+        .mix {
+            border-style: solid hidden solid solid;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+        }
+        .pad {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+        }
+        .head {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="border-collapse: collapse;text-align: center;width: 100%;">
+        <tr>
+            <th class="head" colspan="4" style="background-color: gainsboro;">A complex table</th>
+        </tr>
+        <tr>
+            <th class="mix" colspan="2" style="text-align: left;background-color: gainsboro;">Invoice#123456789</th>
+            <th class="pad" colspan="2" style="background-color: gainsboro;">14 January 2025</th>
+        </tr>
+        <tr>
+            <td class="mix" colspan="2" style="text-align: left;width: 50%;">
+                <div><b>Pay To:</b></div>
+                <div>Acme Billing Co.</div>
+                <div>123 Main Street</div>
+                <div>Cityville, NA 12345</div>
+            </td>
+            <td class="pad" colspan="2" style="text-align: left;width: 50%;">
+                <div><b>Customer</b></div>
+                <div>John Smith</div>
+                <div>321 Willo Way</div>
+                <div>Southeast Northwestershrine, MA 54321</div>
+            </td>
+        </tr>
+        <tr>
+            <th class="mix" style="text-align: left;background-color: gainsboro;">Name/Discription</th>
+            <th class="mix" style="text-align: left;background-color: gainsboro;">Qty.</th>
+            <th class="mix" style="text-align: left;background-color: gainsboro;">@</th>
+            <th class="pad" style="text-align: left;background-color: gainsboro;">Cost</th>
+        </tr>
+        <tr>
+            <td class="mix" style="text-align: left;">Paperclips</td>
+            <td class="mix" style="text-align: left;">1000</td>
+            <td class="mix" style="text-align: left;">0.01</td>
+            <td class="pad" style="text-align: left;">10.00</td>
+        </tr>
+        <tr>
+            <td class="mix" style="text-align: left;">Staples(box)</td>
+            <td class="mix" style="text-align: left;">100</td>
+            <td class="mix" style="text-align: left;">1.0</td>
+            <td class="pad" style="text-align: left;">100</td>
+        </tr>
+        <tr>
+            <td class="mix" colspan="3" style="text-align: left;background-color: gainsboro;"><b>Subtotal</b></td>
+            <td class="pad" style="text-align: left;">110</td>
+        </tr>
+        <tr>
+            <td class="mix" colspan="2" style="text-align: left;background-color: gainsboro;"><b>Tax</b></td>
+            <td class="mix" style="text-align: left;">8%</td>
+            <td class="pad" style="text-align: left;">8.80</td>
+        </tr>
+        <tr>
+            <td class="mix" colspan="3" style="text-align: left;background-color: gainsboro;"><b>Grand Total</b></td>
+            <td class="pad" style="text-align: left;">$118.80</td>
+        </tr>
+    </table>
+</body>
+</html>
